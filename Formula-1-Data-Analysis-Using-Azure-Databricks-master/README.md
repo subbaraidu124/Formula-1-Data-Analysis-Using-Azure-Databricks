@@ -12,7 +12,7 @@ Formula 1 Racing data of all the races, drivers, teams, circuits and other data 
 I have used Azure Data lake Gen2 for storage. Data lake has to be mounted to dbfs in order to access from databricks workspace. 
 
 Steps to connect databricks to Azure data lake:
-1) Create storaeg account
+1) Create storage account
 2) Create 3 blob containers: raw, processed and presentation
 3) Create service principle which can be considered as access to services we wanna use and helps applications to access the resources via service principal.
 4) Add a secret.
