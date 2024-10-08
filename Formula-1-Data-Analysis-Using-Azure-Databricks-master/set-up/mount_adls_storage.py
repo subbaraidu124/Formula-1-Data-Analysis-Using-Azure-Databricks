@@ -27,7 +27,7 @@ def mount_adls(container_name):
 
 mount_adls("raw")
 
-# COMMAND ----------
+# COMMAND ---------
 
 mount_adls("presentation")
 
